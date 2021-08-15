@@ -5,6 +5,7 @@ import { createStructuredSelector } from 'reselect';
 import './App.css';
 import Header from './components/Header/Header';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+import Checkout from './pages/checkout/Checkout';
 import HomePage from "./pages/homepage/HomePage"
 import Shop from './pages/shop/Shop';
 import SignInSignUp from './pages/signInSignUp/signInSignUp';
@@ -46,6 +47,7 @@ class App extends Component {
         <Switch>
           <Route path="/" exact={true} component={HomePage} />
           <Route path="/shop" component={Shop} />
+          <Route exact path="/checkout" component={Checkout} />
           <Route exact path="/sign-in" render={() =>
             this.props.currentUser ?
               <Redirect to='/' />
