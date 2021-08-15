@@ -23,7 +23,20 @@
         width: 23%;
     }
 
+    .quantity{
+        display: flex;
+
+        .arrow{
+            cursor: pointer;
+        }
+
+        .value{
+            margin: 0 10px;
+        }
+    }
+
     .remove{
+        padding-left: 12px;
         cursor: pointer;
     }
 }
