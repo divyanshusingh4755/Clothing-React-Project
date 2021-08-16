@@ -2,32 +2,32 @@ const INITIAL_STATE = {
     sections: [
         {
             title: "Hats",
-            linkUrl: '',
+            linkUrl: 'shop/hats',
             imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
             id: 1
         },
         {
             title: "Jackets",
-            linkUrl: '',
+            linkUrl: 'shop/jackets',
             imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
             id: 1
         },
         {
             title: "Sneakers",
-            linkUrl: '',
+            linkUrl: 'shop/sneakers',
             imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
             id: 1
         },
         {
             title: "Womens",
-            linkUrl: '',
+            linkUrl: 'shop/womens',
             imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
             size: 'large',
             id: 1
         },
         {
             title: "Mens",
-            linkUrl: '',
+            linkUrl: 'shop/mens',
             imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
             size: 'large',
             id: 1
